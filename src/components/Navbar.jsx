@@ -11,7 +11,7 @@ const Container = styled.div`
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 10px;
+    padding: 10px 0px;
 `
 const Links = styled.div`
     display:flex;
@@ -20,7 +20,9 @@ const Links = styled.div`
 `
 
 const Icons = styled.div`
-   
+    display:flex;
+    align-items:center;
+    gap:20px;
 `
 
 const Logo = styled.img`
@@ -36,14 +38,23 @@ const List = styled.ul`
 `
 const ListItem = styled.li`
 margin: 0 0 10px 0;
+cursor:pointer;
 `
 
 const Icon = styled.img`
-   
+   width: 20px;
+   cursor:pointer;
 `
 
 const Button = styled.button`
-   
+   width: 100px;
+   padding: 10px;
+   background-color: #da4ea2;
+   color: white;
+   border:none;
+   border-radius: 5px;
+   cursor:pointer;
+
 `
 const Navbar = () => {
   return (
